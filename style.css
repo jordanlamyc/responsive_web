@@ -1,7 +1,9 @@
 #main {
+    background-color: #00BFFF;
     border-style: solid;
     border-color: palevioletred;
     border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pink {
@@ -11,6 +13,10 @@
 @media (min-width: 600px) {
     #container {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        gap: 10px 20px;
     }
     
     #main {
